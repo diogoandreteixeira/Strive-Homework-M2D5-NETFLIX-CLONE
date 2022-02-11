@@ -1,0 +1,55 @@
+*::selection{ /* Pseudo Element */
+    background-color: crimson;
+    color: white;
+}
+
+body {
+    background-color:#262626 !important;
+}
+
+.h1{
+    /* color: crimson !important; */
+    font-size: 40px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: grey;
+}
+
+/* a:hover {
+    color: white;
+} */
+
+h6 span { 
+    background-color: #424344; 
+    padding: 6px 10px 6px 10px;
+    border-radius: .2rem;
+}
+
+#buttons {
+    border-radius: 1 !important;
+    color: rgb(139, 134, 134);
+  }
+
+  body > div:nth-child(2) > div > div > div.col-3 > img:hover{
+    position: relative;
+    top: -4px; /* upwards */
+}
+
+body > div:nth-child(2) > div > div > div.col-6.px-0 > input:focus{
+    border: 2px solid crimson;
+    outline: none;
+}
+
+/* #buttonsLast:hover{
+    color: crimson;
+} */
+
+/* .last:last-child{
+    color: crimson;
+} */
+
+.btn-outline-light {
+    border-color: gray;
+}

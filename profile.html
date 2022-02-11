@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="/M2/D5/NetFlix Project/Strive-Homework-M2D5-NETFLIX-CLONE/Netflix Profile/styles.css" rel="stylesheet">
+    <title>Netflix Profile</title>
+  </head>
+
+  <body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand m-3" href="#">
+      <img src="/M2/D5/NetFlix Project/Strive-Homework-M2D5-NETFLIX-CLONE/Netflix Profile/netflix_logo.png" width="100" height="auto" alt="">
+        </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+            </div>
+          <li class="nav-item dropdown mr-auto">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/M2/D5/NetFlix Project/Strive-Homework-M2D5-NETFLIX-CLONE/Netflix Profile/avatar.png" width="50" height="auto" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="...">Home</a></li> <!-- MISSING HOOK TO LINK PAGES -->
+              <li><a class="dropdown-item" href="/M2/D5/NetFlix Project/Strive-Homework-M2D5-NETFLIX-CLONE/profile.html">Your Profile</a></li>
+              <li><a class="dropdown-item" href="...">Settings</a></li> <!-- MISSING HOOK TO LINK PAGES -->
+              <li><hr class="dropdown-divider"></li>
+            </ul>
+      </li>
+    </div>
+</div>
+</nav>
+
+<div class="container"  style="background-color: #262626;" >
+      <div class="jumbotron my-auto">
+        <p class="h1 text-light">Edit Profile</p>
+        <hr style="color: grey;">
+
+      <div class="row" style="text-align: center;">
+        <div class="col-3  ">
+          <img src="https://i.pinimg.com/736x/03/c9/ed/03c9ed8914ad31a4dc703f57ae46dd24.jpg" class="img-fluid rounded" style=" width: 150px; height: auto;">
+        </div>
+        <div class="col-6 px-0">
+        <input type="text" class="form-control-default" placeholder="Your name here...  :)" required> <br><br>
+        <p style="color: rgb(139, 134, 134);"> Choose your Language: </p>
+        
+        <div class="dropdown">
+          <a class="btn btn-dark  btn-outline-light dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+            English(US)
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="#">German</a></li>
+            <li><a class="dropdown-item" href="#">Italian</a></li>
+            <li><a class="dropdown-item" href="#">Portuguese</a></li>
+            <li><a class="dropdown-item" href="#">French</a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr style="color: grey;"> 
+</div>
+
+<div class="container text-light">
+ <div class="row" style="text-align:center;">                  
+    <h5 style="text-decoration: underline;">Maturity Settings:</h5>
+    <br><br>
+    <h6><span>MATURITY RATINGS</span></h6>
+    <br>
+    <p>Show titles of <b>all maturity ratings</b> for this profile.</p>
+ <div>
+    <button type="button" class="btn btn-outline-light" id="buttons" style="color: rgb(139, 134, 134);">EDIT</button>
+ </div>
+ <hr class="my-4">
+ </div>
+    <div class="row" style="text-align:center; text-decoration: underline;">
+        <h5>Autoplay Controls:</h5>
+        <br><br>
+        
+        <div class="form-check">
+            <div style="display: inline-block;">
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label" for="flexCheckDefault">
+            Autoplay next episode in a series on all devices.
+        </label>
+        </div>
+    </div>
+        <div class="form-check">
+            <div style="display: inline-block;">
+        <input class="form-check-input" type="checkbox">
+        <label class="form-check-label" for="flexCheckDefault">
+            Autoplay previews when browsing on all devices.
+        </label>
+        </div>
+    </div>
+    <hr class="my-4">
+    </div>
+ </div>
+</div>
+
+<br><br>
+
+<div class="container mb-3" style="text-align:center;">
+    <button type="button" class="btn btn-outline-light btn-dark" id="buttons">Save</button>
+    <button type="button" class="btn btn-outline-light btn-dark" id="buttons">Cancel</button>
+    <button type="button" class="btn btn-outline-light btn-dark" id="buttons">Delete my profile</button>
+<div>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    
+     <script src="js/script.js"></script>
+     
+  </body>
+
+</html>
